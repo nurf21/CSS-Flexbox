@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 
 body {
-  margin: 0;
   font-family: sans-serif;
   background-color: #2D2D2D;
   line-height: 1.6;
@@ -16,6 +16,7 @@ body {
   padding: 32px;
   background-color: #1A1A1A;
   border-bottom: 4px solid #F4BFBF;
+  margin-bottom: 20px;
 }
 
 .gallery {
@@ -45,6 +46,8 @@ body {
 
 figcaption {
   text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .gallery::after {
