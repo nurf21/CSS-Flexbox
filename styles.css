@@ -38,6 +38,7 @@ body {
   object-fit: cover;
   border-radius: 10px;
   transition: transform 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .gallery img:hover {
@@ -54,4 +55,9 @@ figcaption {
   content: "";
   width: 350px;
   flex-shrink: 0;
+}
+
+.gallery img:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #F4BFBF;
 }
